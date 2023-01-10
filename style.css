@@ -1,0 +1,26 @@
+/* Common Sytyles 
+------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Special Elite', sans-serif;
+  font-weight: 400;
+}
+
+/* 
+- 1 rem = 16px
+- We convert 1 rem = 10px
+ */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ccc;
+}
