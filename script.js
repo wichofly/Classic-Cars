@@ -1,6 +1,7 @@
 const menu = document.querySelector('.menu')
 const target = document.querySelectorAll('.target')
 const wrapper = document.querySelectorAll('.wrapper')
+const videos = document.querySelectorAll('.video')
 
 menu.addEventListener('click', () => {
   target.forEach(item => {
@@ -14,5 +15,14 @@ wrapper.forEach(item => {
     target.forEach(item => {
       item.classList.remove('change')
     })
+  })
+})
+
+videos.forEach(video => {
+  video.addEventListener('mouseover', () => {
+    video.play()
+  })
+  video.addEventListener('mouseout', () => {
+    video.pause()
   })
 })

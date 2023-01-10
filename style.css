@@ -238,4 +238,15 @@ section {
 
 .video {
   width: 25%;
+  margin: 0 2rem;
+  border-radius: .5rem;
+  opacity: 0.8;
+  box-shadow: 0.3rem 0.3rem 0.5rem #111;
+  transition: all 0.5s;
+}
+
+/* I like the tecnique of opacity and box-shadow when is hovered */
+.video:hover{
+  opacity: 1;
+  box-shadow: 0.5rem 0.5rem 1rem #111;
 }
