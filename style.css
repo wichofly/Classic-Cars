@@ -42,12 +42,12 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transform: rotate(45deg);
-  transition: left 0.5s;
+  transition: all 0.5s;
 }
 
 .menu.change {
   left: 15vw;
+  transform: rotate(45deg);
 }
 
 .menu-line {
@@ -56,13 +56,14 @@ body {
   background-color: white;
   margin: 0.3rem 0;
   box-shadow: 0.1rem 0.1rem  0.3rem #222;
+  transition: transform 0.5s;
 }
 
-.menu-line-1 {
+.change .menu-line-1 {
   transform: rotate(270deg) translateX(-.4rem);
 }
 
-.menu-line-2 {
+.change .menu-line-2 {
   transform: rotate(360deg) translateY(-.4rem);
 }
 
